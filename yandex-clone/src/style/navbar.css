@@ -1,0 +1,27 @@
+@import url("./list.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.nav {
+    background-color : #ffffff;
+}
+
+.nav-c {
+    float: right;
+    margin-right : 15px;
+    margin-top : 14px;
+    font-weight: 5px;
+    font-size: 13 px;
+}
+
+.nav-c .lang:hover {
+    color : #C866A9;
+}
+
+.nav-c .lang {
+    font-family: Roboto;
+}
+
+.logo {
+    width : 45px;
+}

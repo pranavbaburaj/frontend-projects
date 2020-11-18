@@ -1,0 +1,63 @@
+input {
+    width : 60%;
+    margin-top : 80px;
+    padding : 8px;
+    border : 3px solid #FFDB4D;
+}
+
+input:focus {
+    border : 3px solid #FFDB4D;
+    outline : none;
+}
+
+
+.bar .img {
+    width :107px;
+    height : 99px;
+    display : inline;
+    font-family: sans-serif;
+}
+
+.bar .img strong, .bar .img p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 40px;
+    font-stretch: 100%;
+    font-weight: 400;
+    display: inline;
+}
+
+
+.bar .img p {
+    padding-right : 35px;
+}
+
+.bar .img strong {
+    color : red;
+}
+
+.bar .img p:hover {
+    color: black;
+}
+
+
+.bar {
+    margin-left: 80px;
+    align-items: center;
+    display: inline;
+}
+
+
+input[type="submit"] {
+    position: relative;
+    display: inline-block;
+    width : 88px;
+    background-color : #ffdb4d;
+    border-radius : 7px;
+}
+
+
+@media screen and (max-width : 600px) {
+    input[type="submit"] {
+        display: none;
+    }
+}

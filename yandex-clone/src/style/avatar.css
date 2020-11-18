@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    --l :  #C866A9;
+    --m : 190px;
+}
+
+.app2 {
+    display : grid;
+    place-items: center;
+    margin-left: 15%;
+}
+
+.Images {
+    padding-left: 30px;
+    display: grid;
+    place-items: center;
+    margin-top : 200px;
+    /* margin-left: 0.3px; */
+    transition : all 0.5s;
+}
+
+.Images:hover {
+    margin-top : var(--m);
+
+}
+
+
+
+img {
+    width : 45px;
+    border-radius: 30%;
+    border : none;
+}
+
+p {
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+p:hover {
+    color : var(--l);
+}
+
+/* p:hover .Images {
+    margin-top : var(--m);
+} */
+
+ul {
+    list-style-type: none;
+}
