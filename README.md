@@ -1,5 +1,5 @@
 # frontend-projects
 
-> This is a series of frontend projects 
+> This is a series of frontend projects :octocat: 
 
-1 : [Yandex](https://yandex.com) clone :octocat:
+1 : [Yandex](https://yandex.com) clone 
