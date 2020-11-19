@@ -2,5 +2,5 @@
 
 > This is a series of frontend projects :octocat: 
 
-- [] [Yandex](https://yandex.com) clone 
-- [] [Yahoo](https://yahoo.com)-navbar
+- [x]- [Yandex](https://yandex.com) clone 
+- [x]- [Yahoo](https://yahoo.com)-navbar
