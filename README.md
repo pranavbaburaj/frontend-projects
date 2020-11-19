@@ -5,6 +5,8 @@
 1 : [Yandex](https://yandex.com) clone 
 
 
-'''javascript
-console.log("Hello")
-'''
+```javascript
+function test() {
+ console.log("look ma’, no spaces");
+}
+``'
