@@ -1,0 +1,117 @@
+:root {
+    --primary-color : rgb(23, 119, 242);
+    --hover : rgb(22, 111, 229);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(240, 242, 245);
+    overflow : hidden;
+}
+
+.logo {
+    margin-top : 200px;
+    margin-left: 40px;
+}
+
+h1 {
+    color : var(--primary-color);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: -1;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size : 24px;
+    font-weight: 400;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+input {
+    border : 1px solid rgb(221, 223, 226);
+    background: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: normal;
+    height: 22px;
+    line-height: 16px;
+    padding: 16px 14px 16px 14px;
+    width: 330px;
+    margin-bottom: 15px;
+}
+
+.form{
+    float: right;
+    margin-right: 15%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-bottom-color : (28, 30, 33);
+    align-items: center;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 0;
+}
+
+
+.login {
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    width: 355px;
+    font-size: 20px;
+    line-height: 48px;
+    background-color: var(--primary-color);
+    border : none;
+    outline: none;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+
+.login:hover{
+    background-color: var(--hover);   
+}
+
+input:focus {
+    outline : none;
+    border : 1px solid var(--primary-color);
+}
+
+a {
+    color : var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color : var(--hover);
+}
+
+
+.new1 {
+    margin-top : 15px;
+    background-color : rgb(75, 153, 60);
+    width : 70%;
+    border : none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 25px;
+    height : 40px;
+}
+
+
+.new1:hover {
+    background-color: rgb(54, 164, 32);
+}
